@@ -96,7 +96,7 @@ int main() {
 	char aaaa[20];
 	aaaa[0] = 'a';
 	aaaa[2] = 'b';
-	aaaa[20] = 'z';		//ERRO! excede o tamanho do arrray!
+	//aaaa[20] = 'z';		//ERRO! excede o tamanho do arrray!
 
 
 	char nomes[] = { "ola" };
@@ -107,39 +107,17 @@ int main() {
 		printf("%c", nomes[i]);
 	}
 
-	printf("%s\n", nomes);
-
+	printf("\n%s\n", nomes);
 
 	char letras[40];
 	letras[0] = 'a';
-	//int n=scanf("%[^\n]", letras);
+	int n=scanf("%[^\n]", letras);
 	//gets(letras);
 	//int n = scanf("%[0-9a-zA-Z ]", letras);
-	//gets();
-	//puts(letras);
+	puts(letras);
 
 #pragma endregion
 
-#pragma region Tres
-
-	int notas[] = { 12,23,12,10,45 };
-
-	int aux = ProcuraValorArray(notas, 5, 10);	//rever com "sizeof"
-
-	aux = ProcuraPosicaoValorArray(notas, 5, 10);
-	if (aux != -1) {
-		printf("Existe na posicao %d\n", aux);
-	}
-	else
-		printf("Não Existe!\n");
-
-	//TPC: Quantos valores existem num array
-	//TPC: Procurar mas começando pelo fim!!!!!!
-
-	aux = OrdenaArray(notas, 5);
-	MostraArray(notas, 5);
-
-#pragma endregion
 
 
 }

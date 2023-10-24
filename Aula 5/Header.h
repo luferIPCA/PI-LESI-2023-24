@@ -2,11 +2,19 @@
 #include "Global.h"
 
 void Escreve(int x);
+
+/// @brief Calcula a soma de...
+/// @param a 
+/// @param b 
+/// @return 
 int Soma(int a, int b);
+
+/// @brief Apresenta conteúdo de um array
+/// @param a 	Array
+/// @param b 	Tamanho
+/// @return 
 void MostraArray(int x[], int t);
-int ProcuraValorArray(int valores[], int tam, int valor);
-int ProcuraPosicaoValorArray(int valores[], int t, int v);
-bool OrdenaArray(int v[], int t);
+
 
 //ou
 //#ifndef PRINT

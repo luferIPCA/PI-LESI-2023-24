@@ -1,5 +1,3 @@
-﻿  Funcoes.c
-  Source.c
+﻿  Source.c
 D:\Temp\PI - LESI\AulasPI\Aula 5\Source.c(106,28): warning C4013: 'strlen' undefined; assuming extern returning int
-  Generating Code...
   Aula 5.vcxproj -> D:\Temp\PI - LESI\AulasPI\Debug\Aula 5.exe
