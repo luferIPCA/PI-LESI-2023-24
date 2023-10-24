@@ -1,7 +1,16 @@
-#pragma once
+//#pragma once
 
-int Soma(int x, int y);		//Assinatura
-int Sub(int x, int y);
-int Mult(int x, int y);
+#ifndef FUNC
+#define FUNC
 
-double Div(int x, int y);
+#include "Global.h"
+/*
+* Soma: Calcula a soma de dois valores inteiros
+*/
+int Soma(int x, int y);
+int Maior(int a, int b);
+int MaiorTresValores(int a, int b, int c);
+
+#endif
+
+

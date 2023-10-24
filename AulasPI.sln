@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.33529.622
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Aula 2", "Aula 2\Aula 2.vcxproj", "{389B2EB9-DE2C-4C81-B59A-6684975CD512}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Aula 4", "Aula 4\Aula 4.vcxproj", "{56533EBA-85D9-4844-B15B-0A07DA5C818C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Aula 4 - Estrutura Programa", "Aula 4\Aula 4.vcxproj", "{56533EBA-85D9-4844-B15B-0A07DA5C818C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Aula 3", "Aula 3\Aula 3.vcxproj", "{7CAC1A51-AD46-4854-AAEF-ABCBDC112A07}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Aula 5", "Aula 5\Aula 5.vcxproj", "{3C0B5CEF-9BA5-4BD4-8B09-08571CC0CEC2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,14 @@ Global
 		{7CAC1A51-AD46-4854-AAEF-ABCBDC112A07}.Release|x64.Build.0 = Release|x64
 		{7CAC1A51-AD46-4854-AAEF-ABCBDC112A07}.Release|x86.ActiveCfg = Release|Win32
 		{7CAC1A51-AD46-4854-AAEF-ABCBDC112A07}.Release|x86.Build.0 = Release|Win32
+		{3C0B5CEF-9BA5-4BD4-8B09-08571CC0CEC2}.Debug|x64.ActiveCfg = Debug|x64
+		{3C0B5CEF-9BA5-4BD4-8B09-08571CC0CEC2}.Debug|x64.Build.0 = Debug|x64
+		{3C0B5CEF-9BA5-4BD4-8B09-08571CC0CEC2}.Debug|x86.ActiveCfg = Debug|Win32
+		{3C0B5CEF-9BA5-4BD4-8B09-08571CC0CEC2}.Debug|x86.Build.0 = Debug|Win32
+		{3C0B5CEF-9BA5-4BD4-8B09-08571CC0CEC2}.Release|x64.ActiveCfg = Release|x64
+		{3C0B5CEF-9BA5-4BD4-8B09-08571CC0CEC2}.Release|x64.Build.0 = Release|x64
+		{3C0B5CEF-9BA5-4BD4-8B09-08571CC0CEC2}.Release|x86.ActiveCfg = Release|Win32
+		{3C0B5CEF-9BA5-4BD4-8B09-08571CC0CEC2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

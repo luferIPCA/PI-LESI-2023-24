@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Aula 4 - Estrutura.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Calculadora.c
+D:\Temp\PI - LESI\AulasPI\Aula 4\Calculadora.c(25,27): warning C4013: 'AreaCircunf' undefined; assuming extern returning int
+  Aula 4.vcxproj -> D:\Temp\PI - LESI\AulasPI\Debug\Aula 4 - Estrutura Programa.exe

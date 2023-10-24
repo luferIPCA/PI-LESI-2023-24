@@ -15,25 +15,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Calculadora.c">
+    <ClCompile Include="Source.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Funcoes.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Circunferencia.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Funcoes.h">
-      <Filter>Source Files</Filter>
+    <ClInclude Include="Header.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Global.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Circunferencia.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
