@@ -1,0 +1,5 @@
+﻿  Source.c
+D:\Temp\PI - LESI\AulasPI\AUla 7_1\Source.c(13,8): warning C4013: 'strcpy' undefined; assuming extern returning int
+D:\Temp\PI - LESI\AulasPI\AUla 7_1\Source.c(16,9): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'Pessoa'
+D:\Temp\PI - LESI\AulasPI\AUla 7_1\Source.c(9,8): warning C4101: 'y': unreferenced local variable
+  AUla 7_1.vcxproj -> D:\Temp\PI - LESI\AulasPI\Debug\AUla 7_1.exe

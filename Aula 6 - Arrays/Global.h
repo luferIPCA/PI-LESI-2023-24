@@ -1,9 +1,16 @@
 #pragma once
 
 
-#include <stdbool.h>
+//#include <stdbool.h>
 
-#define MAX 50
 
+
+//ou
 #define TRUE 1
 #define FALSE 0
+typedef int bool;
+
+//ou
+//enum A { true, false };
+//typedef enum A bool;
+#define MAX 50

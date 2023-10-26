@@ -39,8 +39,11 @@ int main() {
 	printf("Array Ordenado:\n");
 	MostraArray(notas, 5);
 
-	//TPC: Quantos valores existem num array
+	//TPC: Quantos valores existem num array| FIXE!!!
 	//TPC: Procurar mas começando pelo fim!!!!!!
+
+
+	int valores[] = { 2,3,3,4,66 }; //sizeof()
 
 #pragma endregion
 
