@@ -1,5 +1,5 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (AUla 7_1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   Source.c
-D:\Temp\PI - LESI\AulasPI\Aula 7 - Structs\Source.c(19,8): warning C4013: 'strcpy' undefined; assuming extern returning int
-D:\Temp\PI - LESI\AulasPI\Aula 7 - Structs\Source.c(15,8): warning C4101: 'y': unreferenced local variable
+D:\Temp\PI - LESI\AulasPI\Aula 7 - Structs\Source.c(21,8): warning C4013: 'strcpy' undefined; assuming extern returning int
+D:\Temp\PI - LESI\AulasPI\Aula 7 - Structs\Source.c(17,9): warning C4101: 'y': unreferenced local variable
   Aula 7.vcxproj -> D:\Temp\PI - LESI\AulasPI\Debug\Aula 7 - Structs.exe

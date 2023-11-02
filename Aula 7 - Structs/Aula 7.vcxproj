@@ -143,6 +143,8 @@
     <ClInclude Include="Dados.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Funcoes.c" />
+    <ClCompile Include="IO.c" />
     <ClCompile Include="Source.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
