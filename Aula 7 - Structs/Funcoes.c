@@ -114,10 +114,18 @@ bool ExistePessoaII(Pessoa t[], int tam, char nome[]) {
 	}
 }
 
+//Viola o padrão SOLID
 //bool InserePessoaTurma(Pessoa turma[], int tam, char nome[], int idade) {
 //	Pessoa aux;
 //	strcpy(aux.nome,nome);
 //	aux.idade = idade;
+//for (int i = 0; i < tam; i++) {
+//		if (turma[i].idade == -1) {
+//			turma[i] = aux;
+//			return true;
+//		}
+//	}
+//	return false;
 //}
 
 bool InserePessoaTurma(Pessoa turma[], int tam, Pessoa nova) {
