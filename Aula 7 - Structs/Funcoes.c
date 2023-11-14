@@ -1,6 +1,21 @@
-
+/*****************************************************************//**
+ * @file   Funcoes.c
+ * @brief  
+ * 
+ * @author lufer
+ * @date   November 2023
+ *********************************************************************/
 #include "Dados.h"
 
+/**
+ * @brief .
+ * 
+ * @param x
+ * @param y
+ * @return 
+ * @author lufer
+ *
+ */
 SomaProd SomaProduto(int x, int y){
 	SomaProd aux;
 	aux.prod = x * y;
@@ -147,12 +162,17 @@ bool InicializaTurmaII(Pessoa turma[], int t, Pessoa p) {
 	return true;
 }
 
-/// @brief Insere nova pessoa; Incrementa total de existentes
-/// @param turma 
-/// @param tam 
-/// @param totalExistem 
-/// @param nova 
-/// @return 
+/**
+ * @brief .
+ * 
+ * @param turma
+ * @param tam
+ * @param totalExistem
+ * @param nova
+ * @return 
+ * @author lufer
+ *
+ */
 int InserePessoaTurmaII(Pessoa turma[], int tam, int totalExistem, Pessoa nova) {
 	if (totalExistem == tam) return false;
 	for (int i = 0; i < tam; i++) {

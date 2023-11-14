@@ -24,9 +24,9 @@
 #define ALUNOSTURMA 20
 
 struct Pessoa {
-	char nome[N];
-	int idade;
-	long nc;
+	char nome[N];	/**< Nome da pessoa. */
+	int idade;		/**< Idade da pessoa. */
+	long nc;		/**< Numero de contribuinte */
 };
 typedef struct Pessoa Pessoa;
 

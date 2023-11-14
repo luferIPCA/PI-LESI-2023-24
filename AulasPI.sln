@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Aula 6 - Arrays", "Aula 6 -
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Aula 7 - Structs", "Aula 7 - Structs\Aula 7.vcxproj", "{DDCDB3E4-4146-4E77-9E53-43C8B95560F1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Aula 9 - Recursividade", "Aula 9 - Recursividade\Aula 9 - Recursividade.vcxproj", "{469EB20E-204C-44FE-893A-939ACB413F84}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{DDCDB3E4-4146-4E77-9E53-43C8B95560F1}.Release|x64.Build.0 = Release|x64
 		{DDCDB3E4-4146-4E77-9E53-43C8B95560F1}.Release|x86.ActiveCfg = Release|Win32
 		{DDCDB3E4-4146-4E77-9E53-43C8B95560F1}.Release|x86.Build.0 = Release|Win32
+		{469EB20E-204C-44FE-893A-939ACB413F84}.Debug|x64.ActiveCfg = Debug|x64
+		{469EB20E-204C-44FE-893A-939ACB413F84}.Debug|x64.Build.0 = Debug|x64
+		{469EB20E-204C-44FE-893A-939ACB413F84}.Debug|x86.ActiveCfg = Debug|Win32
+		{469EB20E-204C-44FE-893A-939ACB413F84}.Debug|x86.Build.0 = Debug|Win32
+		{469EB20E-204C-44FE-893A-939ACB413F84}.Release|x64.ActiveCfg = Release|x64
+		{469EB20E-204C-44FE-893A-939ACB413F84}.Release|x64.Build.0 = Release|x64
+		{469EB20E-204C-44FE-893A-939ACB413F84}.Release|x86.ActiveCfg = Release|Win32
+		{469EB20E-204C-44FE-893A-939ACB413F84}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
