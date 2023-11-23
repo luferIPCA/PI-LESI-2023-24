@@ -32,3 +32,58 @@ int FactorialRec(int n) {
 	if (n == 0) return 1;
 	return (n * FactorialRec(n - 1));
 }
+
+int SomaNVezesNaoRec(int valorASomar, int valorMaximoCalculado) {
+	int soma = valorASomar;
+	for (int j = 0; ; j++) {
+		soma+= valorASomar;
+		if (soma >= valorMaximoCalculado) break;
+	}
+	return soma- valorASomar;
+}
+
+/**
+ * @brief ANALISAR.
+ * 
+ * @param valorASomar
+ * @param maxValorSomado
+ * @return 
+ * @author lufer
+ *
+ */
+int SomaNVezesRec(const int valorASomar, int maxValorSomado) {
+	static int soma = 0;
+	if (soma >= maxValorSomado) return soma;
+	soma = valorASomar + SomaNVezesRec(valorASomar, maxValorSomado);
+}
+
+/**
+ * @brief ANALISAR!
+ * 
+ * @param valorASomar
+ * @param maxValorSomado
+ * @return 
+ * @author lufer
+ *
+ */
+int SomaNVezesRec(int valorASomar, int aux, int maxValorSomado) {
+	if (aux <= maxValorSomado)
+	{
+		aux += valorASomar;
+		return (SomaNVezesRec(valorASomar, aux, maxValorSomado));
+	}
+	else
+		return valorASomar;
+}
+	
+//Somar(7, 100);
+/*
+*	valor=14;
+*	Somar(14,100)
+*		valor
+*/
+
+
+
+
+
