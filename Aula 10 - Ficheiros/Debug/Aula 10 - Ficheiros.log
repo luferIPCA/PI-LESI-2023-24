@@ -1,2 +1,10 @@
-﻿  GereFicheirosc.c
+﻿  GereFicheiroTxt.c
+  GereFicheiros.c
+D:\Temp\PI - LESI\AulasPI\Aula 10 - Ficheiros\GereFicheiros.c(14,1): warning C4005: 'N': macro redefinition
+D:\Temp\PI - LESI\AulasPI\Aula 10 - Ficheiros\Funcoes.h(7): message : see previous definition of 'N'
+D:\Temp\PI - LESI\AulasPI\Aula 10 - Ficheiros\GereFicheiros.c(90,31): warning C4013: 'ImportarDados' undefined; assuming extern returning int
+D:\Temp\PI - LESI\AulasPI\Aula 10 - Ficheiros\GereFicheiros.c(92,24): warning C4013: 'GuardaDados' undefined; assuming extern returning int
+  GereFicheirosBin.c
+  Generating Code...
+D:\Temp\PI - LESI\AulasPI\Aula 10 - Ficheiros\GereFicheirosBin.c(22): warning C4715: 'GuardaDados': not all control paths return a value
   Aula 10 - Ficheiros.vcxproj -> D:\Temp\PI - LESI\AulasPI\Debug\Aula 10 - Ficheiros.exe

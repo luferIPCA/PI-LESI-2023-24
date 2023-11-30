@@ -7,14 +7,11 @@
  *********************************************************************/
 
 #include <stdio.h>
+#include "Funcoes.h"
 
 #pragma warning (disable: 4996)
 
 #define N 40
-typedef struct Pessoa {
-	char nome[N];
-	int idade;
-}Pessoa;
 
 int main(){
 	
@@ -58,22 +55,47 @@ int main(){
 	fclose(fp);
 	printf("Nome: %s - Idade: %d\n", p2.nome, p2.idade);
 
-	//TPC ler de um ficheiro csv vários registos????
+	//TPC ler de um ficheiro csv vários registos
 
 	fp = fopen("Pessoas2.csv", "r");
 	while (1) {
 		fscanf(fp, "%[^;];%d", p2.nome, &p2.idade);
 		if (feof(fp)) break;
-		printf("Nome: %s - Idade: %d\n", p2.nome, p2.idade);
+		//printf("Nome: %s - Idade: %d\n", p2.nome, p2.idade);
 	}
 	fclose(fp);
+
+	//Ler para um array
+
+	Pessoa turma[10];
+	fp = fopen("Pacientes.csv", "r");
+	int i = 0;
+	while (1) {
+		fscanf(fp, "%[^;];%d", turma[i].nome, &turma[i].idade);
+		i++;
+		if (feof(fp)) break;
+		//printf("Nome: %s - Idade: %d\n", p2.nome, p2.idade);
+	}
+	fclose(fp);
+
+#pragma region EXERCICIO_AULA
+
+	Aluno turma3[N];
+
+	int totAlunos = ImportarDados("Pessoas3.csv", turma3);
+
+	bool aux = GuardaDados("Pessoas.dat", turma3, totAlunos);
 
 
 #pragma endregion
 
-//fwrite
-//fread
+#pragma endregion
+
+
 #pragma region FICHEIROS_BIN
+
+	//fwrite
+	//fread
 
 	printf("TAMANHO PESSOA: %d\n", sizeof(Pessoa));
 
@@ -95,12 +117,12 @@ int main(){
 
 #pragma region ARRAYS
 
-	Pessoa turma[] = { {"Joao",12},{"Ana",14} };
+	Pessoa turma4[] = { {"Joao",12},{"Ana",14} };
 
 	fp = fopen("Turma.txt", "wb");
 	if (fp != NULL) {
 		for (int i = 0; i < 2; i++) {
-			fwrite(&turma[i], 1, sizeof(Pessoa), fp);
+			fwrite(&turma4[i], 1, sizeof(Pessoa), fp);
 		}
 	}
 	fclose(fp);
@@ -120,8 +142,12 @@ int main(){
 		}
 	}
 
+
 #pragma endregion
 
 #pragma endregion
 
 }
+
+
+

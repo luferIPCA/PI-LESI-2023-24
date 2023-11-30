@@ -139,7 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="GereFicheirosc.c" />
+    <ClCompile Include="GereFicheiros.c" />
+    <ClCompile Include="GereFicheirosBin.c" />
+    <ClCompile Include="GereFicheiroTxt.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Funcoes.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
