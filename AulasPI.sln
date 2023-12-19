@@ -23,6 +23,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ficheiros", "Ficheiros", "{
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Aula 10 - Ficheiros", "Aula 10 - Ficheiros\Aula 10 - Ficheiros.vcxproj", "{1FA3B48B-EE90-4AEB-B5F3-D05660DA7440}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Aula 11 - Libs", "Aula 11 - Libs\Aula 11 - Libs.vcxproj", "{09ACEB88-D388-4330-8446-2A9B0389A7EC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Aula 11 - UsaLib", "Aula 11 - UsaLib\Aula 11 - UsaLib.vcxproj", "{39681F24-FA6E-4AE7-BB69-9A29FE7E2C8F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apontadores", "Apontadores", "{1215594E-6E19-4AB4-8252-C0BF74010DE1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pointers", "Aula 12 - Apontadores\Pointers\Pointers.vcxproj", "{3BE198A2-90FC-46A4-AA9B-EF20FB4B7EF1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pointers and Structs", "Aula 12 - Apontadores\Pointers and Structs\Pointers and Structs.vcxproj", "{C6C36A2E-5D86-413E-8BBD-4CCF0D74F8EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -103,12 +113,46 @@ Global
 		{1FA3B48B-EE90-4AEB-B5F3-D05660DA7440}.Release|x64.Build.0 = Release|x64
 		{1FA3B48B-EE90-4AEB-B5F3-D05660DA7440}.Release|x86.ActiveCfg = Release|Win32
 		{1FA3B48B-EE90-4AEB-B5F3-D05660DA7440}.Release|x86.Build.0 = Release|Win32
+		{09ACEB88-D388-4330-8446-2A9B0389A7EC}.Debug|x64.ActiveCfg = Debug|x64
+		{09ACEB88-D388-4330-8446-2A9B0389A7EC}.Debug|x64.Build.0 = Debug|x64
+		{09ACEB88-D388-4330-8446-2A9B0389A7EC}.Debug|x86.ActiveCfg = Debug|Win32
+		{09ACEB88-D388-4330-8446-2A9B0389A7EC}.Debug|x86.Build.0 = Debug|Win32
+		{09ACEB88-D388-4330-8446-2A9B0389A7EC}.Release|x64.ActiveCfg = Release|x64
+		{09ACEB88-D388-4330-8446-2A9B0389A7EC}.Release|x64.Build.0 = Release|x64
+		{09ACEB88-D388-4330-8446-2A9B0389A7EC}.Release|x86.ActiveCfg = Release|Win32
+		{09ACEB88-D388-4330-8446-2A9B0389A7EC}.Release|x86.Build.0 = Release|Win32
+		{39681F24-FA6E-4AE7-BB69-9A29FE7E2C8F}.Debug|x64.ActiveCfg = Debug|x64
+		{39681F24-FA6E-4AE7-BB69-9A29FE7E2C8F}.Debug|x64.Build.0 = Debug|x64
+		{39681F24-FA6E-4AE7-BB69-9A29FE7E2C8F}.Debug|x86.ActiveCfg = Debug|Win32
+		{39681F24-FA6E-4AE7-BB69-9A29FE7E2C8F}.Debug|x86.Build.0 = Debug|Win32
+		{39681F24-FA6E-4AE7-BB69-9A29FE7E2C8F}.Release|x64.ActiveCfg = Release|x64
+		{39681F24-FA6E-4AE7-BB69-9A29FE7E2C8F}.Release|x64.Build.0 = Release|x64
+		{39681F24-FA6E-4AE7-BB69-9A29FE7E2C8F}.Release|x86.ActiveCfg = Release|Win32
+		{39681F24-FA6E-4AE7-BB69-9A29FE7E2C8F}.Release|x86.Build.0 = Release|Win32
+		{3BE198A2-90FC-46A4-AA9B-EF20FB4B7EF1}.Debug|x64.ActiveCfg = Debug|x64
+		{3BE198A2-90FC-46A4-AA9B-EF20FB4B7EF1}.Debug|x64.Build.0 = Debug|x64
+		{3BE198A2-90FC-46A4-AA9B-EF20FB4B7EF1}.Debug|x86.ActiveCfg = Debug|Win32
+		{3BE198A2-90FC-46A4-AA9B-EF20FB4B7EF1}.Debug|x86.Build.0 = Debug|Win32
+		{3BE198A2-90FC-46A4-AA9B-EF20FB4B7EF1}.Release|x64.ActiveCfg = Release|x64
+		{3BE198A2-90FC-46A4-AA9B-EF20FB4B7EF1}.Release|x64.Build.0 = Release|x64
+		{3BE198A2-90FC-46A4-AA9B-EF20FB4B7EF1}.Release|x86.ActiveCfg = Release|Win32
+		{3BE198A2-90FC-46A4-AA9B-EF20FB4B7EF1}.Release|x86.Build.0 = Release|Win32
+		{C6C36A2E-5D86-413E-8BBD-4CCF0D74F8EA}.Debug|x64.ActiveCfg = Debug|x64
+		{C6C36A2E-5D86-413E-8BBD-4CCF0D74F8EA}.Debug|x64.Build.0 = Debug|x64
+		{C6C36A2E-5D86-413E-8BBD-4CCF0D74F8EA}.Debug|x86.ActiveCfg = Debug|Win32
+		{C6C36A2E-5D86-413E-8BBD-4CCF0D74F8EA}.Debug|x86.Build.0 = Debug|Win32
+		{C6C36A2E-5D86-413E-8BBD-4CCF0D74F8EA}.Release|x64.ActiveCfg = Release|x64
+		{C6C36A2E-5D86-413E-8BBD-4CCF0D74F8EA}.Release|x64.Build.0 = Release|x64
+		{C6C36A2E-5D86-413E-8BBD-4CCF0D74F8EA}.Release|x86.ActiveCfg = Release|Win32
+		{C6C36A2E-5D86-413E-8BBD-4CCF0D74F8EA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1FA3B48B-EE90-4AEB-B5F3-D05660DA7440} = {589E4EB6-C579-42C9-B78A-D97211301170}
+		{3BE198A2-90FC-46A4-AA9B-EF20FB4B7EF1} = {1215594E-6E19-4AB4-8252-C0BF74010DE1}
+		{C6C36A2E-5D86-413E-8BBD-4CCF0D74F8EA} = {1215594E-6E19-4AB4-8252-C0BF74010DE1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {864EFF7C-6EE4-4FF4-B7CB-9F9C2AF58C9B}
